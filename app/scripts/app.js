@@ -4,7 +4,8 @@ angular.module('fightTrackerApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'leaflet-directive'
 ])
   .config(function ($routeProvider) {
     $routeProvider

@@ -59,6 +59,23 @@ body {
   margin-top: 28px;
 }
 
+/* ANGULAR AND GOOGLE MAPS FOR MAXIMUM WINS!!!
+.angular-google-maps-container {
+  height: 400px;
+  width: 400px;
+}
+
+*/
+
+
+.main .angular-google-map-container {
+  height: 200px;
+  margin-bottom: 30px;
+  border: 10px #fff solid;
+  box-shadow: 0 0 5px #ccc;
+}
+
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
