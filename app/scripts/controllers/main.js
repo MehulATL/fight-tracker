@@ -29,14 +29,14 @@ angular.module('fightTrackerApp')
       sfMarker: {
         lat: 37.76,
         lng: -122.4,
-        message: 'I want to travel here!',
+        message: 'UMVC3 Training Session',
         focus: true,
         draggable: false
       },
       asdfMarker: {
         lat: 37.74,
         lng: -122.45,
-        message: 'TROLLZ',
+        message: 'Street Fighter IV Tournament',
         focus: true,
         draggable: false
       }
