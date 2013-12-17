@@ -10,19 +10,22 @@ angular.module('fightTrackerApp')
     // ];
     $scope.map = {
       center: {
-        latitude: 45,
-        longitude: -73
-      },
-      zoom: 15
+        lat: 37.7833,
+        lng: 122.4167,
+        zoom: 15
+      }
     };
+  })
 
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function (position) {
-      $scope.map.center = {
-        latitude: position.coords.latitude,
-        longitude: position.coords.longitude
-      };
-    });
-  }
-
+.controller('CenterController', [ '$scope', function($scope) {
+  angular.extend($scope, {
+    center: {
+      lat: 37.76,
+      lng: -122.45,
+      zoom: 12
+    },
+    defaults: {
+      scrollWheelZoom: false
+    }
   });
+}]);

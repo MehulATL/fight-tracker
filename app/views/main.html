@@ -18,11 +18,9 @@
 </div>
 <p> TROLOLOLOLOLOLOLOLOLOLOLOLLOLOL </p>
 
-<!-- <google-map center='map.center' zoom='map.zoom'></google-map> -->
-<leaflet width="400px" height="400px"></leaflet>
-
-
-<div id="googlemapthing" style="width:100%; height:100%"></div>
+<div ng-controller="CenterController">
+  <leaflet width="100%" height="400px" center="center"></leaflet>
+</div>
 
 <div class="footer">
   <p>♥ from the Yeoman team</p>
